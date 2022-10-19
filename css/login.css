@@ -1,0 +1,149 @@
+* {
+    font-family: montserrat;
+}
+
+img {
+    width: 100%;
+}
+
+#VideoBG{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.login{
+    height: 795px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+.login_box{
+    width: 1050px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 10px;
+    box-shadow: 1px 4px 22px -8px #0004;
+    display: flex;
+    overflow: hidden;
+}
+
+.login_box .left{
+    width: 41%;
+    height: 100%;
+    padding: 25px 25px;
+}
+
+.login_box .right{
+    width: 59%;
+    height: 100%;
+}
+
+.left .top_link a{
+    color: #452A5A;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.left .top_link{
+    height: 20px;
+}
+
+.left .top_link a:hover{
+    color: #5499B5;
+}
+
+.left .contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+    width: 73%;
+    margin: auto;
+}
+
+.left h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.left h6{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.left input{
+    border: none;
+    width: 80%;
+    margin: 15px 0;
+    border-bottom: 1px solid #4f306ffd;
+    padding: 7px 9px;
+    overflow: hidden;
+    background: transparent;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.left{
+    background: linear-gradient(-45deg, #dcd7e0, #fff);
+}
+
+/*.submit{
+
+}*/
+
+.contact input[type="submit"]{
+    background: black;
+    border: 1cm;
+    border-radius: 50px;
+    padding: 15px 70px;
+    display: block;
+    background: black;
+    margin: auto;
+    margin-top: 50px;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 9px 15px -11px rgba(88, 54, 114, 1);
+}
+
+.contact input[type="submit"]:hover{
+    background: #9FC8F2;
+}
+
+.right{
+    background: url(../image/Charlotte.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    position: relative;
+}
+
+.right .right-text{
+    height: 100%;
+    position: relative;
+    transform: translate(0, 45%);
+}
+
+.right-text h2{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.right-text h5{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 400;
+}

@@ -1,0 +1,999 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: montserrat;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.container ul .login{
+    background: #324e63;
+    color: white;
+    float: right;
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 22px -8px #0004;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.container ul li a#login{
+    font-family: Bignoodletitling;
+}
+
+.container ul .login:hover{
+    background: #5499B5;
+    color: black;
+}
+
+.socialmedia{
+    padding:  5px 0px;
+    background-color: #9FC8F2;
+}
+
+.socialmedia ul li{
+    display: inline-block;
+    color : white;
+    margin-right:10px;
+}
+
+.socialmedia ul li.namaku{
+    display: inline-block;
+    font-family: Bignoodletitling;
+    font-size: 40px;
+}
+.youtube:hover{
+    color:red;
+}
+
+.instagram:hover{
+    color:pink;
+}
+
+.facebook:hover{
+    color:blue;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container2 {
+    width: 100%;
+    margin: 0 auto;
+    background-image: url('../image/banner header.png');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container4 {
+    width: 100%;
+    margin: 0 auto;
+    background-color:white;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+}
+
+.container4 a{
+    color:#5499B5
+}
+
+.container4 a:hover{
+    color: blue;
+}
+
+.container2:after{
+    content:'';
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+#banner{
+    height: 200px;
+    width: 1348px;
+    position: cover;
+}
+
+#banner2{
+    height: 70px;
+    width: 80%;
+    padding: 0px 133px;
+    position: cover;
+}
+
+
+.welcome{
+    font-family: Nexa Light;
+    color: black;
+    text-align: center;
+    position:relative;
+    justify-content: center;
+}
+
+.container3 {   
+    width: 100%;
+    margin: 0px auto;
+    background-color:#5499B5;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container:after{
+    content:'';
+    display: block;
+    clear: both;
+}
+
+header h1{  
+    padding: 0px 0px;
+    color: black;
+    font-size: 30px;
+    z-index: 1;
+}
+
+header ul{
+    float: left;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+header ul li a{
+    padding: 30px 20px;
+    display: inline-block;
+}
+
+ul.container3 li a{
+    padding: 6px 40px;
+    display: inline-block;
+}
+
+ul.container3 li:hover{
+    background-color:#9FC8F2;
+    color: white;
+}
+
+.active{
+    background-color:#9FC8F2;
+    color: white;
+}
+
+section {
+    padding: 50px 0px;
+}
+
+section h2{
+    text-align: center;
+    padding: 20px 0px;
+    color: #4E818E;
+}
+
+
+/*Dashboard*/
+
+.dashboard{
+    background: url(../image/classroom.png  );
+    background-size: cover;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerdash {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+.fotosb{    
+    max-width: 274px;
+    max-height: 353px;
+    border-radius: 20px;
+    box-shadow: 1px 4px 50px -8px #0004;
+}
+
+.kirifoto{
+    width: 100%;
+    height: 100%;
+    padding: 25px 25px;
+    background: #9FC8F2;
+    box-shadow: 1px 4px 22px -8px #0004;
+    border-radius: 20px;
+    /*text-align: center;
+    justify-content: center;*/
+}
+
+.kanan{
+    background-color: #c1defc;
+    float: right;
+    padding: 0px 20px;
+    margin-left: 10px;
+    width: 760px;
+    box-shadow: 1px 4px 22px -8px #0004;
+    height: 210px;
+    position: absolute;
+    border-radius: 30px;
+}
+
+.kanan table tr td{
+    font-family: calibri;
+    font-size: 32px;
+}
+
+.dash-sosmed{
+    box-shadow: 1px 4px 22px -8px #0004;
+    border-radius: 20px;
+    background-color: #eaeaea;
+    position: absolute;
+    height: 150px;
+    width: 770px;
+    margin-top: 20px;
+    padding: 0px 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dash-sosmed h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+}
+
+.span-sosmed ul li{
+    padding: 20px 20px;
+    display: inline-block;
+    color : white;
+    margin-right:20px;
+}
+
+li.bio-fb img{
+    height: 60px;
+    width: 60px;
+    opacity: 0.5;
+    position: flex;
+}
+
+li.bio-fb img:hover{
+    opacity: 1;
+    position: flex;
+}
+
+li.bio-wa img{
+    height: 60px;
+    width: 60px;
+    opacity: 0.5;
+    position: flex;
+}
+
+li.bio-wa img:hover{
+    opacity: 1;
+    position: flex;
+}
+
+li.bio-ig img{
+    height: 60px;
+    width: 60px;
+    opacity: 0.5;
+    position: flex;
+}
+
+li.bio-ig img:hover{
+    opacity: 1;
+    position: flex;
+}
+
+/*End Dashboard*/
+
+/* Home */
+
+.home{
+    background: url(../image/Welcome.jpg);
+    background-size: cover;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-welcomedash{
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    color: #fff;
+}
+
+.home-welcomedash h1{
+    font-family: Bignoodletitling;
+    font-size: 140px;
+    font-weight: 400;
+    text-shadow: 5px 5px #000;
+    padding: 70px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* End Home */
+
+/* Home About */
+
+.home-about{
+    background: radial-gradient(#d1955d, #451aa8);
+    background-size: cover;
+    padding: 0px 0px;
+    height: 600px;
+}
+
+.home-about h2{
+    font-family: Bignoodletitling;
+    font-size: 46px;
+    font-weight: lighter;
+    text-shadow: 1px 2px #000;;
+    /*-webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;*/
+    color: #fff;
+}
+.home-aboutdash{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    padding: 0px 0px;
+    background: radial-gradient(#f8f8f8, #9FC8F2);
+    display: flex;
+    flex-direction: row;
+    box-shadow: 1px 4px 22px -8px #0004;
+}
+
+.aboutdash-kiri{
+    margin: 20px;
+    margin-right: 0px;
+    width: 50%;
+    background: url(../image/Tifa-1.jpg.png);
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 1px 4px 22px -8px #0004;
+}
+
+.aboutdash-kanan{
+    width: 50%;
+    height: 50%;
+    margin: 20px;
+    margin-left: 0;
+    border-radius: 20px;
+    padding: 20px 20px;
+}
+
+.aboutdash-kanan img{
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutdash-kanan p{
+    font-family: montserrat;
+    font-size: 24px;
+    text-align: justify;
+    line-height: 1.5;
+    text-indent: 20px;
+}
+
+.aboutdash-kanan h3{
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+/* End Home About */
+
+/* Biodata */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.Biodata{
+    background: radial-gradient(#9ac6e4, #2d92d6);
+    padding: 40px 40px;
+    height: 2700px;
+}
+
+.Biodata h1{
+    font-family: Bignoodletitling; 
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.Biodata hr{
+    border: 2px solid red;
+    box-shadow: 1px 4px 22px -8px #0004;
+}   
+
+.division-bg{
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 1px 4px 22px -8px #0004;
+}
+
+.division0 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    color: #000;
+    padding: 0px 0px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.division0 p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    padding: 10px 10px;
+    font-style: italic;
+    text-align: center;
+}
+
+.division0-image{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #fff;
+}
+
+.division0-image img{
+    border-radius: 20px;
+    box-shadow: 1px 4px 22px -8px #0004;
+}
+
+.division1{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    margin-left: 21%;
+    margin-right: 21%;
+}
+
+.division1-last{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    padding: 20px 0px;
+    margin-left: 21%;
+    margin-right: 21%;
+}
+
+.division1-last b{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+.division1-last p{
+    font-family: 'Roboto', sans-serif;
+    text-indent: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.division1 b{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+.division1 p{
+    font-family: 'Roboto', sans-serif;
+    text-indent: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.division1-image{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.division1-image a:hover{
+    opacity: 0.5;
+}
+
+.division1-image img{
+    border-radius: 20px;
+    box-shadow: 1px 4px 22px -8px #0004;
+}
+
+.division1-image1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.division1-image1 img{
+    width: 648px;
+    height: 432px;
+    border-radius: 20px;
+    box-shadow: 1px 4px 22px -8px #0004;
+}
+
+
+/* End Biodata */
+
+.about {
+    background: radial-gradient(#73c4d8, #5667b1);;
+}
+
+.mainabout p{
+    color: rgb(248, 0, 0);
+    word-spacing: 2px;
+    line-height: 22px;
+    text-align: justify;
+
+}
+
+.mainabout h2{
+    color: #000;
+}
+
+.container h3{
+    font-family: Nexa;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.text{
+    text-align:center;
+    font-size: 15px;
+    padding-top:5px;
+    margin: 0 auto;
+    color: #324e63;
+    width: 80%;
+    height: auto;
+}
+
+.mainabout{
+    width: 800px;
+    height: 520px;
+    margin: 0 auto;
+    font-family: Nexa light;
+    background-color: #c1defc;
+    padding-top: 20px;
+    border-radius: 20px;   
+    box-shadow: 1px 4px 22px -8px #0004; 
+}
+
+.profil{
+    background-image: url('../image/Me.png');
+    background-color: #eaeaea;
+    background-size:cover;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid #eaeaea;
+}
+
+#NAMA{
+    text-align: center;
+    padding-top: 15px;
+}
+
+section.about p{
+    margin:0 auto;
+    padding-top: 20px;
+    width: 450px;
+    height: auto;
+    color: black;
+}
+
+footer{
+    padding: 30px 0px;
+    background-color: #6696AB;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bg-loader{
+    background-color: #EEE;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-loader .loader{
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+    border-top-color: #9FC8F2;
+    border-right-color: #9FC8F2;
+    border-bottom-color: #9FC8F2;
+    animation: loading 1s linear infinite;
+}
+
+.label{
+    background-color: #5499B5;  
+    color: black;
+    font: nexa;
+    font-weight: light;
+    padding: 40px 0px;
+}
+
+.contact{
+    background-color: #4E818E;
+    padding: 0px 0px;
+    margin: 0 auto;
+
+}
+
+.maincontact{
+    padding: 0px 10px;
+}
+
+.maincontact h2{
+    color: white;
+}
+
+.formcontact{
+    width: 50%;
+    padding: 0px 103px;
+    margin-right: 0;
+}
+
+.formcontact p.labelt{
+    color: white;
+    padding: 5px 20px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #4E818E;
+}
+
+.formcontact p{
+    color: white;
+    padding: 5px 20px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.formcontact form input{
+    width: 500px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    background-color: #9FC8F2;
+    border-bottom: 1px solid black;
+    color: black;
+    font-size: 17px;
+    font-family: arial;
+    border-radius: 10px;
+}
+
+.formcontact textarea {
+    width: 500px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    background-color: #9FC8F2;
+    border-bottom: 1px solid black;
+    color: black;
+    font-size: 20px;
+    font-family: arial;
+    border-radius: 10px;
+}
+
+.formcontact form input[type="button"]{
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 18px;
+    color:  black;
+    font-weight: bold;
+}
+
+.formcontact form input[type="button"]:hover{
+    background-color: #9FC8F2;
+}
+
+@keyframes loading{
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.gamelist{
+    background-color: aliceblue;
+}
+#rig{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 0;
+    list-style: none;
+    background-color: none;
+}
+
+#rig li{
+    display: inline-block;
+    *display : inline;
+    width: 25%;
+    vertical-align: middle;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.rig-cell{
+    margin: 12px;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0,4);
+    padding: 16px;
+    border: none;
+    color: #555;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    position: a;
+    overflow: hidden;
+}
+
+.rig-cell#waifu:hover{
+    background-color: palevioletred;
+}
+.rig-cell:hover{
+    background-color: #9FC8F2;
+}
+
+section.waifulist h2{
+    color: palevioletred;
+}
+
+.waifulist{
+    background-color: aliceblue;
+}
+
+.rig-cell h3{
+    font-size: 18px;
+    font-family: nexa;
+    font-weight: normal;
+}
+
+.rig-img1{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 0;
+    padding-top: 83.461538%;
+    background-size: cover;
+    background-color: white;
+    background-image: url('../image/FF VII Remake.jpg');
+    background-repeat: no-repeat;
+
+}
+
+.rig-img1:hover{
+    opacity: 0.5;
+}
+
+.rig-img2{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 0;
+    padding-top: 83.461538%;
+    background-size: cover;
+    background-color: white;
+    background-image: url('../image/PUBG.jpg');
+    background-repeat: no-repeat;
+}
+
+.rig-img3{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 0;
+    padding-top: 83.461538%;
+    background-size: cover;
+    background-color: white;
+    background-image: url('../image/TLOU.jpg');
+    background-repeat: no-repeat;
+}
+
+.rig-img4{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 0;
+    padding-top: 83.461538%;
+    background-size: cover;
+    background-color: white;
+    background-image: url('../image/GOW.png');
+    background-repeat: no-repeat;
+}
+
+.rig-img5{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 0;
+    padding-top: 83.461538%;
+    background-size: cover;
+    background-color: white;
+    background-image: url('../image/GTA V.jpg');
+    background-repeat: no-repeat;
+}
+
+.rig-img6{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 0;
+    padding-top: 83.461538%;
+    background-size: cover;
+    background-color: white;
+    background-image: url('../image/Sekiro.jpg');
+    background-repeat: no-repeat;
+}
+
+.rig-img7{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 0;
+    padding-top: 83.461538%;
+    background-size: cover;
+    background-color: white;
+    background-image: url('../image/FFXV.jpg');
+    background-repeat: no-repeat;
+}
+
+.rig-img8{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 0;
+    padding-top: 83.461538%;
+    background-size: cover;
+    background-color: white;
+    background-image: url('../image/FFX.jpg');
+    background-repeat: no-repeat;
+}
+
+
+.rig-img1-waifu{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 0;
+    padding-top: 83.461538%;
+    background-size: cover;
+    background-color: white;
+    background-image: url('../image/Tifa3.jpg');
+    background-repeat: no-repeat;
+}
+
+
+.rig-img2-waifu{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 0;
+    padding-top: 83.461538%;
+    background-size: cover;
+    background-color: white;
+    background-image: url('../image/Yuffie.png');
+    background-repeat: no-repeat;
+}
+
+.rig-img3-waifu{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 0;
+    padding-top: 83.461538%;
+    background-size: cover;
+    background-color: white;
+    background-image: url('../image/Jessie.jpg');
+    background-repeat: no-repeat;
+}
+
+.rig-img4-waifu{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 0;
+    padding-top: 83.461538%;
+    background-size: cover;
+    background-color: white;
+    background-image: url('../image/Aerith.jpg');
+    background-repeat: no-repeat;
+}
+
+.rig-img5-waifu{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 0;
+    padding-top: 83.461538%;
+    background-size: cover;
+    background-color: white;
+    background-image: url('../image/takagi.jpg');
+    background-repeat: no-repeat;
+}
+
+.rig-img6-waifu{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 0;
+    padding-top: 83.461538%;
+    background-size: cover;
+    background-color: white;
+    background-image: url('../image/Nao.jpg');
+    background-repeat: no-repeat;
+}
+
+.rig-img7-waifu{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 0;
+    padding-top: 83.461538%;
+    background-size: cover;
+    background-color: white;
+    background-image: url('../image/Isla.jpg');
+    background-repeat: no-repeat;
+}
+
+.rig-img8-waifu{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 0;
+    padding-top: 83.461538%;
+    background-size: cover;
+    background-color: white;
+    background-image: url('../image/anya.jpeg');
+    background-repeat: no-repeat;
+}
+
+
+#rig li:hover .rig-overlay{
+    opacity: 0.5;
+}
+
+@media(max-width: 9000px){
+    #rig li{width: 25%;}
+}
+
+@media(max-width: 800px){
+    #rig li{width:33.33%;}
+}
+
+
+@media(max-width: 500px){
+    #rig li{width: 50%;}
+}
+
+@media(max-width: 350){
+    #rig li{width:100%;}
+}

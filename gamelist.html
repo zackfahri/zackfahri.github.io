@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf=8">
+        <meta name="viewport" contents="width=device-width", initial-scale="1">
+        <title>Website</title>
+        <link rel="stylesheet" type="text/css" href="css/styling.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    </head>
+    
+    <body>
+        <!--Loader-->
+        <div class="bg-loader">
+            <div class="loader"></div>
+        </div>
+        <!--Header-->
+        <div class="socialmedia">
+            <div class="container">
+                <ul>
+                    <li class="namaku">Zack</li>
+                    <!--<li class="youtube"><a href="https://www.youtube.com/channel/UCNZeusaeB4V6FSBT3lEQnCw"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li class="instagram"><a href="https://www.instagram.com/zkyscxx61_/"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li class="facebook"><a href="https://www.facebook.com/zaky.fachriansyah.7/"><i class="fa-brands fa-facebook"></i></a></li>-->
+                    <li class="login"><a id=login href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--Banner dan Menu-->
+        <header>
+            <!--<div class="container2" id="banner">
+                <h1>
+                    <a href="home.html">Zaky Fachriansyah</a>
+                    <br><p class="welcome">Welcome to my website!</p>
+                </h1>
+            </div>-->
+            <div>
+                <ul class="container3">
+                    <li><a href="home.html"><i class="fa-sharp fa-solid fa-house"></i> Home</a></li>
+                    <li><a href="dashboard.html"><i class="fa-sharp fa-solid fa-circle-info"></i> Dashboard</a></li>
+                    <li><a href="biodata.html"><i class="fa-solid fa-address-card"></i> Biodata</a></li>
+                    <li><a href="contact.html"><i class="fa-solid fa-phone"></i> Contact</a></li>
+                    <li class="active"><a href="gamelist.html"><i class="fa-solid fa-gamepad"></i> Game</a></li>
+                    <li><a href="waifulist.html"><i class="fa-solid fa-face-grin-hearts"></i> Waifu</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <!--Label Game List-->
+        <!--<section class="label">
+            <div class="container">
+                <p>Home / Game List</p>
+            </div>
+        </section-->
+        
+        <!--Game List-->
+        <section class="gamelist">
+            <div class="container">
+                <h2>Game List</h2>
+                <ul id="rig">
+                    <li>
+                        <a class="rig-cell" href="../Game/ffviiremake.html">
+                            <span class="rig-img1"></span>
+                            <h3>Final Fantasy VII Remake</h3>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="rig-cell" href="../Game/PUBG.html">
+                            <span class="rig-img2"></span>
+                            <h3>PUBG</h3>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="rig-cell" href="../Game/TLOU.html">
+                            <span class="rig-img3"></span>
+                            <h3>The Last Of Us</h3>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="rig-cell" href="../Game/GOW.html">
+                            <span class="rig-img4"></span>
+                            <h3>God Of War</h3>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="rig-cell" href="../Game/GTA V.html">
+                            <span class="rig-img5"></span>
+                            <h3>Grand Theft Auto V</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="rig-cell" href="../Game/GTA V.html">
+                            <span class="rig-img6"></span>
+                            <h3>Sekiro : Shadows Die Twice</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="rig-cell" href="../Game/GTA V.html">
+                            <span class="rig-img7"></span>
+                            <h3>Final Fantasy XV</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="rig-cell" href="../Game/GTA V.html">
+                            <span class="rig-img8"></span>
+                            <h3>Final Fantasy X</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <footer>
+            <div class="container">
+                <small>Copyright &copy; 2022 - Zaky Fachriansyah. All Rights Reserved</small>
+            </div>
+        </footer>
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $(".bg-loader").hide();
+            })
+        </script>
+    </body>
+</html>

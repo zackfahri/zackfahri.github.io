@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf=8">
+        <meta name="viewport" contents="width=device-width", initial-scale="1">
+        <title>Zack - Dashboard</title>
+        <link rel="stylesheet" type="text/css" href="css/styling.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    </head>
+    
+    <body>
+        <!--Loader-->
+        <div class="bg-loader">
+            <div class="loader"></div>
+        </div>
+        <!--Header-->
+        <div class="socialmedia">
+            <div class="container">
+                <ul>
+                    <li class="namaku">Zack</li>
+                    <!--<li class="youtube"><a href="https://www.youtube.com/channel/UCNZeusaeB4V6FSBT3lEQnCw"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li class="instagram"><a href="https://www.instagram.com/zkyscxx61_/"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li class="facebook"><a href="https://www.facebook.com/zaky.fachriansyah.7/"><i class="fa-brands fa-facebook"></i></a></li>-->
+                    <li class="login"><a id=login href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--Banner dan Menu-->
+        <header>
+            <!--<div class="container2" id="banner">
+                <h1>
+                    <a href="home.html">Zaky Fachriansyah</a>
+                    <br><p class="welcome">Welcome to my website!</p>
+                </h1>
+            </div>-->
+            <div>
+                <ul class="container3">
+                    <li><a href="home.html"><i class="fa-sharp fa-solid fa-house"></i> Home</a></li>
+                    <li class="active"><a href="dashboard.html"><i class="fa-sharp fa-solid fa-circle-info"></i> Dashboard</a></li>
+                    <li><a href="biodata.html"><i class="fa-solid fa-address-card"></i> Biodata</a></li>
+                    <li><a href="contact.html"><i class="fa-solid fa-phone"></i> Contact</a></li>
+                    <li><a href="gamelist.html"><i class="fa-solid fa-gamepad"></i> Game</a></li>
+                    <li><a href="waifulist.html"><i class="fa-solid fa-face-grin-hearts"></i> Waifu</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <!--Dashboard-->
+        <section class="dashboard">
+            <div class="bgdashboard">
+                <div class="containerdash">
+                    <div class="kirifoto">
+                        <img src="../HTML UTS/image/Me2.jpg" class="fotosb">
+                        <span class="kanan">
+                            <table border="0">
+                                <tr>
+                                    <td>Nama</td>
+                                    <td width=40>:</td>
+                                    <td> Zaky Fachriansyah</td>
+                                </tr>
+                                <tr>
+                                    <td>Kelas</td>
+                                    <td width=40>:</td>
+                                    <td> TEKOM A 2021</td>
+                                </tr>
+                                <tr>
+                                    <td>NIM</td>
+                                    <td width="40">:</td>
+                                    <td> 210210501042</td>
+                                </tr>
+                                <tr>
+                                    <td>Hobi</td>
+                                    <td width="40">:</td>
+                                    <td> Bermain Game</td>
+                                </tr>
+                                <tr>
+                                    <td>Cita-Cita</td>
+                                    <td width="40">:</td>
+                                    <td> Konten Kreator & Game Development</td>
+                                </tr>
+                            </table>
+                            <div class="dash-sosmed">
+                                <h3>Social Media</h3>
+                                <span class="span-sosmed">
+                                    <ul>
+                                        <li class="bio-fb"><a href="https://www.facebook.com/zaky.fachriansyah.7/" target="_blank"><img src="../HTML UTS/image/Facebook.png"></a></li>
+                                        <li class="bio-wa"><a href="https://wa.me/+6282190273845/" target="_blank"><img src="../HTML UTS/image/Whatsapp.png"></a></li>
+                                        <li class="bio-ig"><a href="https://www.instagram.com/zkyscxx61_/" target="_blank"><img src="../HTML UTS/image/Instagram.webp"></a></li>
+                                    </ul>
+                                </span>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--<footer>
+            <div class="container">
+                <small>Copyright &copy; 2022 - Zaky Fachriansyah. All Rights Reserved</small>
+            </div>
+        </footer>-->
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $(".bg-loader").hide();
+            })
+        </script>
+    </body>
+</html>

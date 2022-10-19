@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf=8">
+    <meta name="viewport" contents="width=device-width" , initial-scale="1">
+    <title>Zack - Home</title>
+    <link rel="stylesheet" type="text/css" href="css/styling.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Loader-->
+    <div class="bg-loader">
+        <div class="loader"></div>
+    </div>
+    <!--Header-->
+    <div class="socialmedia">
+        <div class="container">
+            <ul>
+                <li class="namaku">Zack</li>
+                <!--<li class="youtube"><a href="https://www.youtube.com/channel/UCNZeusaeB4V6FSBT3lEQnCw"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li class="instagram"><a href="https://www.instagram.com/zkyscxx61_/"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li class="facebook"><a href="https://www.facebook.com/zaky.fachriansyah.7/"><i class="fa-brands fa-facebook"></i></a></li>-->
+                <li class="login"><a id=login href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--Banner dan Menu-->
+    <header>
+        <div class="container2" id="banner">
+            <h1>
+                <a href="home.html">Zaky Fachriansyah</a>
+                <br>
+                <p class="welcome">Welcome to my website!</p>
+            </h1>
+        </div>
+        <div>
+            <ul class="container3">
+                <li class="active"><a href="home.html"><i class="fa-sharp fa-solid fa-house"></i> Home</a></li>
+                <li><a href="dashboard.html"><i class="fa-sharp fa-solid fa-circle-info"></i> Dashboard</a></li>
+                <li><a href="biodata.html"><i class="fa-solid fa-address-card"></i> Biodata</a></li>
+                <li><a href="contact.html"><i class="fa-solid fa-phone"></i> Contact</a></li>
+                <li><a href="gamelist.html"><i class="fa-solid fa-gamepad"></i> Game</a></li>
+                <li><a href="waifulist.html"><i class="fa-solid fa-face-grin-hearts"></i> Waifu</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!--Home Welcome-->
+    <section class="home">
+        <div class="home-welcomedash">
+            <h1>Halo!</h1>
+        </div>
+    </section>
+
+    <!--Home About-->
+    <section class="home-about">
+        <h2>Website Apa ini?</h2>
+        <div class="home-aboutdash">
+            <div class="aboutdash-kiri"></div>
+            <div class="aboutdash-kanan">
+                <p>Website yang saya buat berisikan tentang game yang telah saya mainkan
+                    serta karakter-karakter yang saya suka dari game ataupun anime 
+                    yang telah saya mainkan ataupun nonton.
+                </p><br>
+                <h3 align="center">Mengapa Memilih Tema Tersebut?</h3>
+                <p>Untuk menjadi kenangan bagi saya serta mengingat kembali game-game yang
+                    saya mainkan serta karakter-karakter yang saya suka dulu.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--Home Pembuat-->
+    <section class="about">
+        <div class="mainabout">
+            <h2>Pembuat Website</h2>
+            <div class="profil"></div>
+            <h1 id="NAMA">Zaky Fachriansyah</h1>
+            <div class=text>Web Pemula dari <strong>Palopo, Indonesia</strong></div>
+            <p> &nbsp;&nbsp; Haloo, salam kenal! Saya Zaky Fachriansyah berasal dari Kota Palopo,
+                Sulawesi Selatan. Saya sekarang sedang menjalani perkuliahan pada Universitas Negeri
+                Makassar, Jurusan Teknik Informatika & Komputer, Prodi Teknik Komputer.
+            </p>
+            <p>&nbsp;&nbsp; And yes, saya masih pemula dalam membuat website. Masih linglung dalam
+                pembungkusan div, span dll :)
+            </p>
+        </div>
+    </section>
+
+
+    <!--Footer-->
+    <footer>
+        <div class="container">
+            <small>Copyright &copy; 2022 - Zaky Fachriansyah. All Rights Reserved</small>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".bg-loader").hide();
+        })
+    </script>
+</body>
+
+</html>
